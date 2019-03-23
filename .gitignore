@@ -1,2 +1,4 @@
 dataset/
+sample/
+result/
 *.pyc
