@@ -109,6 +109,7 @@ def generateGridLabel(y, img_size):
     return label_c, label_bbox
 
 
+
 # def shuffleTogether(a, b, c):
 #     d = list(zip(a, b, c))
 #     random.shuffle(d)
