@@ -313,7 +313,6 @@ def main():
     # test_images = random.sample(test_images, TestNumber)
     TestNumber = len(test_images)
     print(len(test_images), 'test samples are loaded.')
-
     # testImageReadingTime(test_images)
     # input('STOP!')
 
@@ -346,9 +345,7 @@ def main():
         # read the data from saved pickle file
         print('Testing for saving files starts...')
         testFast(test_images, model, train_scale, class_label_mapping, model_name)
-
         # input("Stop!")
-
         print('Congratulation! It finished.')
     else:
         print('There is no trained model. Please check.')
